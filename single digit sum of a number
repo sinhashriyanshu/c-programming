@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+  int a;
+  printf("Enter An Integer");
+  scanf("%d",&a);
+  if(a%9==0)
+  printf("9");
+  else
+    printf("%d", a%9);
+}
